@@ -1,0 +1,55 @@
+träume(
+	PK-traum_id
+	FK-kategorie_id
+	FK-welt_id
+	FK-fsk_id
+	traum_dauer
+)
+traum_instanz(
+	PK-traum_guid
+	FK-traum_id
+	status
+	verbleibende_dauer
+)
+traum_kategorie(
+	PK-kategorie_id
+	FK-welt_id
+	titel,
+	beschreibung,
+	preis,
+	genre
+)
+traum_welt(
+	PK-welt_id
+	tag_nacht_zyklus
+)
+traum_welt_instanz(
+	PK-instnaz_guid
+	FK-welt_id
+	aktive_user
+	daytime
+)
+ 
+traum_generator(
+	PK-schnittstellen_id
+	schnittstellen_typ
+	kosten
+	kommentar
+)
+ 
+generator_typ_speziell(
+	PK-typ_id
+	max_user_gewicht
+	max_user_höhe
+)
+ 
+kunden(
+	PK-kunden_id
+	FK-abonnement_id
+	FK-fsk_id
+	nachname
+	vorname
+	straße
+	plz
+	ort
+)
