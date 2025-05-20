@@ -1,7 +1,6 @@
-Drop Table if Exists DreamPulse..Traum_Pass
+DROP TABLE IF EXISTS DreamPulse..Traum_Pass
 CREATE TABLE DreamPulse..[Traum_Pass]
 (
-  Bezeichnung VARCHAR (30) PRIMARY KEY,
-  Preis MONEY,
-  
+  pass_name VARCHAR (30) PRIMARY KEY,
+  preis MONEY
 )
