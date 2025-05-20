@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[Generator_speziell]
+CREATE TABLE DreamPulse..[Generator_speziell]
 (
   typ_id INT NOT NULL PRIMARY KEY,
   user_gewicht INT,

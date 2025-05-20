@@ -1,7 +1,7 @@
-CREATE TABLE [dbo].[Traum_Generator]
+CREATE TABLE DreamPulse..[Traum_generator]
 (
-    schnittstellen_id INT PRIMARY KEY IDENTITY(1,1),
-    schnittstellen_typ VARCHAR(50),
-    kosten DECIMAL(10,2),
-    kommentar TEXT
-);
+  schnittstellen_id INT NOT NULL PRIMARY KEY,
+  typ INT,
+  kosten MONEY,
+  kommentar VARCHAR(max)
+)
