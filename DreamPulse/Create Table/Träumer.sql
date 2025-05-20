@@ -11,4 +11,5 @@ CREATE TABLE DreamPulse..[Träumer]
   ort VARCHAR(90),
   FOREIGN KEY (traum_pass_level) REFERENCES DreamPulse..Traum_Pass(pass_id),
   FOREIGN KEY (fsk_id) REFERENCES DreamPulse..fsk(fsk)
-)
+);
+ALter Table DreamPulse..Träumer add CONSTRAINT FK_Traum_Pass FOREIGN KEY (traum_pass_level) REFERENCES DreamPulse..Traum_Pass(pass_id)
