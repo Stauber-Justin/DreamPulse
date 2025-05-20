@@ -1,3 +1,4 @@
+Drop Table if EXISTS DreamPulse..Träumer
 CREATE TABLE DreamPulse..[Träumer]
 (
   kunden_id INT IDENTITY PRIMARY KEY,
@@ -7,5 +8,7 @@ CREATE TABLE DreamPulse..[Träumer]
   vorname VARCHAR(30),
   straße VARCHAR(90),
   plz VARCHAR(30),
-  ort VARCHAR(90)
+  ort VARCHAR(90),
+  FOREIGN KEY (traum_pass_level) REFERENCES DreamPulse..Traum_Pass(pass_id),
+  FOREIGN KEY (fsk_id) REFERENCES DreamPulse..fsk(fsk)
 )
