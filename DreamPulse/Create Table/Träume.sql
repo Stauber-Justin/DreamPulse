@@ -1,4 +1,4 @@
-Drop Table if exists DreamPulse..Träume
+-- Drop Table if exists DreamPulse..Träume
 CREATE TABLE DreamPulse..[Träume]
 (
     traum_id INT PRIMARY KEY IDENTITY(1,1),

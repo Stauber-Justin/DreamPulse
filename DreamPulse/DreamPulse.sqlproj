@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Create Table" />
+    <Folder Include="My_insert" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
