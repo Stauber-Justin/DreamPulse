@@ -1,5 +1,5 @@
 INSERT INTO 
-    DreamPulse..Generator_Speziell (typ_id,user_gewicht,user_höhe,kopfumfang),
+    DreamPulse..Generator_Speziell (typ_id,user_gewicht,user_höhe,kopfumfang)
 VALUES
     (1,null,null,60),
     (2,140,200,null),
