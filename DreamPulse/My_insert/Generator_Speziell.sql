@@ -1,10 +1,8 @@
 INSERT INTO 
-    DreamPulse..Generator_Speziell (typ_id,user_gewicht,user_höhe,kopfumfang),
+    DreamPulse..[Generator_Speziell] (typ_id, typ_name, max_gewicht, max_höhe, max_kopfumfang)
 VALUES
-    (1,null,null,60),
-    (2,140,200,null),
-    (3,null,null,null),
-    (4,null,null,60),
-    (5,null,null,65);
-
-    SELECT * FROM DreamPulse..Generator_Speziell 
+    (1, 'Gear', null, null, 60),
+    (2, 'Bett', 140, 200, null),
+    (3, 'Getränk', null, null, null),
+    (4, 'Brille', null, null, 60),
+    (5, 'Kissen', null, null, 65);

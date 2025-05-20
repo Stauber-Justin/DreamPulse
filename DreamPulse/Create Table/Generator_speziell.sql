@@ -3,6 +3,7 @@ CREATE TABLE DreamPulse..[Generator_speziell]
 (
   typ_id INT NOT NULL PRIMARY KEY,
   typ_name VARCHAR(60),
-  user_gewicht INT,
-  user_höhe INT 
+  max_gewicht INT,
+  max_höhe INT,
+  max_kopfumfang INT
 )
