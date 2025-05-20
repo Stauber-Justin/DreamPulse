@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS DreamPulse..FSK;
+CREATE TABLE DreamPulse..[FSK]
+(
+  [fsk] TINYINT PRIMARY KEY
+);

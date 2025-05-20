@@ -9,7 +9,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Create Table" />
+    <Folder Include="Create Table\Träume" />
     <Folder Include="insert" />
+    <Folder Include="Procedures" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />

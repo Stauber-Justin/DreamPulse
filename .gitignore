@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+./DreamPulse/Utility/temp.SQL
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

@@ -9,4 +9,3 @@ INNER JOIN sys.tables t ON fk.parent_object_id = t.object_id
 INNER JOIN sys.schemas sch ON t.schema_id = sch.schema_id;
 
 EXEC sp_executesql @sql;
- 
