@@ -6,8 +6,8 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE DreamPulse..Personal_Traum_Link
 (
-    personal_id INT NOT NULL, -- FK
-    traum_id INT NOT NULL, -- FK
+    personal_id INT NOT NULL REFERENCES DreamPulse..Personal (personal_id), -- FK
+    traum_id INT NOT NULL REFERENCES DreamPulse..Träume (traum_id), -- FK
     PRIMARY KEY (personal_id, traum_id)
 );
 GO
