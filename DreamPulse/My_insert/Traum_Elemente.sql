@@ -1,11 +1,11 @@
 INSERT INTO
-    DreamPulse..Traum_Elemente(objekt,object_typ,kommentar)
+    DreamPulse..Traum_Elemente(objekt,objekt_typ,kommentar)
 VALUES 
-    ('Feuer',0,'feuerwelt'),
-    ('Wasser',0,'wasserwelt'),
-    ('Luft',0,'wolkenwelt'),
-    ('Erde',0,'normale ebene'),
-    ('Gestein',0,'unter der erde'),
-    ('Pflanze',0,'grasland wie wälder');
+    ('Feuer','element','feuerwelt'),
+    ('Wasser','element','wasserwelt'),
+    ('Luft','element','wolkenwelt'),
+    ('Erde','element','normale ebene'),
+    ('Gestein','element','unter der erde'),
+    ('Pflanze','element','grasland wie wälder');
 
 SELECT * FROM DreamPulse..Traum_Elemente
