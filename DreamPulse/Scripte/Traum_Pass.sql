@@ -1,4 +1,4 @@
-INSERT INTO DreamPulse..Traum_Pass (bezeichnung, preis) VALUES
+INSERT INTO DreamPulse..Traum_Pass (pass_name, preis) VALUES
 ('Basic', 5.99), 
 ('Silber', 12.99), 
 ('Gold', 19.99),
