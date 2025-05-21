@@ -6,3 +6,5 @@ VALUES
     (3, 'Getränk', null, null, null),
     (4, 'Brille', null, null, 60),
     (5, 'Kissen', null, null, 65);
+
+SELECT * FROM DreamPulse..Generator_Speziell
