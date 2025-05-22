@@ -6,7 +6,7 @@ $server = "localhost\SQLEXPRESS"
 $database = "DreamPulse"
 
 # Relativer Pfad zum SQL-Ordner
-$sqlPath = ".\DreamPulse\My_insert\"
+$sqlPath = ".\DreamPulse\Alter Table\"
 # ".\DreamPulse\Create Table\"
 # ".\DreamPulse\Alter Table\"
 # ".\DreamPulse\My_insert\"

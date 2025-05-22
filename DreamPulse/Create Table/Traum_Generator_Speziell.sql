@@ -1,9 +1,8 @@
 DROP TABLE IF EXISTS DreamPulse..[Generator_Speziell];
 CREATE TABLE DreamPulse..[Generator_Speziell]
 (
-  typ_id INT PRIMARY KEY,
-  typ_name VARCHAR(60) NOT NULL DEFAULT '',
-  max_gewicht INT,
-  max_höhe INT,
-  max_kopfumfang INT
+  typ_id INT IDENTITY(1,1) PRIMARY KEY,
+  max_gewicht TINYINT,
+  max_höhe TINYINT,
+  max_kopfumfang TINYINT
 );

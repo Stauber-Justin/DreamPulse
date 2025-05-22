@@ -20,7 +20,7 @@ ALTER TABLE
     DreamPulse..Träumer
 ADD CONSTRAINT FK_Träumer_Generator
     FOREIGN KEY (schnittstelle)
-    REFERENCES DreamPulse..Traum_Generator(schnittstellen_id);
+    REFERENCES DreamPulse..Traum_Generator(schnittstellen);
 
 /*
 ALTER TABLE

@@ -5,5 +5,6 @@ CREATE TABLE DreamPulse..[Träume]
     kategorie_id INT NOT NULL, -- FK
     welt_id INT NOT NULL, -- FK
     fsk_id TINYINT NOT NULL, -- FK
-    traum_dauer INT NOT NULL
+    traum_erbauer INT NOT NULL, --FK
+    traum_dauer SMALLINT NOT NULL
 );

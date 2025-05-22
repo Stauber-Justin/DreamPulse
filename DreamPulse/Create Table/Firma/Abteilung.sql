@@ -7,10 +7,8 @@ GO
 CREATE TABLE DreamPulse..Abteilung
 (
     abteilungs_id INT IDENTITY (1,1) PRIMARY KEY,
-    [gehaltsebene_id] INT NOT NULL, -- FK    
-    abteilungs_name NVARCHAR(50) NOT NULL,
-    anzahl_mitarbeiter INTEGER NOT NULL,
-    abteilungs_leiter INTEGER
-    -- specify more columns here
+    abteilungs_leiter INT, -- FK
+    abteilungs_name NVARCHAR(100) NOT NULL,
+    anzahl_mitarbeiter INTEGER NOT NULL, --View
 );
 GO

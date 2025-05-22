@@ -2,6 +2,8 @@ DROP TABLE IF EXISTS Dreampulse..Traum_Instanz;
 CREATE TABLE DreamPulse..[Traum_Instanz] (
     traum_guid UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
     traum_id INT NOT NULL, -- FK
-    [status] VARCHAR(30),
-    verbleibende_dauer INT
+    welt_guid UNIQUEIDENTIFIER NOT NULL, --FK
+    status_id INT NOT NULL, --FK
+    verbleibende_dauer INT NOT NULL,
+    erstellungs_zeit DATETIME2 NOT NULL DEFAULT GETUTCDATE()
 );
